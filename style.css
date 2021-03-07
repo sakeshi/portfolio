@@ -1,0 +1,298 @@
+body{
+	background :url(subtle_white_mini_waves.png)  top #f6f6f6;
+    background-position: center;
+	overflow: hidden; 
+    margin: 0;
+}
+.logo 
+{
+    margin: 0 auto;
+    width: 350px;
+    padding-top: 280px;
+}
+canvas {
+    display: block;
+}
+.center
+{
+	margin: 0 auto;
+	width: 200px;
+}
+.top{
+	font-size: 30px;
+	
+	position: fixed;
+    margin-top: 90px;
+}
+.top a{
+    width: 150px;
+    margin: 10px 105px 10px  0;
+    float:right;
+    height: 40px;
+    text-decoration:none;
+    color:#fff;
+    position:relative;
+    padding:0px 40px;
+    padding-right:50px;
+    background-image: linear-gradient(bottom, rgb(0,97,132) 0%, rgb(0,187,244) 100%);
+    background-image: -o-linear-gradient(bottom, rgb(0,97,132) 0%, rgb(0,187,244) 100%);
+    background-image: -moz-linear-gradient(bottom, rgb(0,97,132) 0%, rgb(0,187,244) 100%);
+    background-image: -webkit-linear-gradient(bottom, rgb(0,97,132) 0%, rgb(0,187,244) 100%);
+    background-image: -ms-linear-gradient(bottom, rgb(0,97,132) 0%, rgb(0,187,244) 100%);
+
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-radius: 5px;
+    font-family: 'Pacifico';
+    font-size: 26px;
+}
+.top a:hover
+{
+    opacity: 0.8;
+}
+
+#div {
+
+    position: fixed;
+    margin: 0 auto;
+    width: 10%;
+    height: 120%;
+    
+
+     -webkit-animation: myfirst 2s; /* Chrome, Safari, Opera */
+    animation: myfirst 2s;
+    
+}
+
+@-webkit-keyframes myfirst {
+    from {background: #00a8ff;left:-50%; top:0%;}
+    to {background: #00a8ff;left:100%; top:0px;}
+}
+
+/* Standard syntax */
+@keyframes myfirst {
+    from {background:  #00a8ff;left:-50%; top:0%;}
+    to {background:  #00a8ff;left:100%; top:0px;}
+}
+#div2 {
+
+    position: fixed;
+    margin: 0 auto;
+    width: 20%;
+    height: 120%;
+
+    
+
+     -webkit-animation: myfirst2 1.5s; /* Chrome, Safari, Opera */
+    animation: myfirst2 1.5s;
+    
+}
+
+@-webkit-keyframes myfirst2 {
+    from {background: #24b4ff;left:-50%; top:0%;}
+    to {background: #24b4ff;left:100%; top:0px;}
+}
+
+/* Standard syntax */
+@keyframes myfirst2 {
+    from {background:  #00617e;left:-50%; top:0%;}
+    to {background:  #00617e;left:100%; top:0px;}
+}
+#div3 {
+
+    position: fixed;
+    margin: 0 auto;
+    width: 10%;
+    height: 120%;
+
+    
+
+     -webkit-animation: myfirst3 1s; /* Chrome, Safari, Opera */
+    animation: myfirst3 1s;
+    
+}
+
+@-webkit-keyframes myfirst3 {
+    from {background: #0078b0;left:-20%; top:0%;}
+    to {background: #0078b0;left:100%; top:0px;}
+}
+
+/* Standard syntax */
+@keyframes myfirst3 {
+    from {background:  #0078b0;left:-50%; top:0%;}
+    to {background:  #0078b0;left:100%; top:0px;}
+}
+
+#div4 {
+
+    position: fixed;
+    margin: 0 auto;
+    width: 30%;
+    height: 120%;
+
+    
+
+     -webkit-animation: myfirst4 0.8s; /* Chrome, Safari, Opera */
+    animation: myfirst4 0.8s;
+    
+}
+
+@-webkit-keyframes myfirst4 {
+    from {background: #b1f3ff;left:20%; top:0%;}
+    to {background: #b1f3ff;left:100%; top:0px;}
+}
+
+/* Standard syntax */
+@keyframes myfirst4 {
+    from {background:  #b1f3ff;left:0%; top:0%;}
+    to {background:  #b1f3ff;left:100%; top:0px;}
+}
+
+#div5 {
+
+    position: fixed;
+    margin: 0 auto;
+    width: 10%;
+    height: 120%;
+
+    
+
+     -webkit-animation: myfirst5 1.2s; /* Chrome, Safari, Opera */
+    animation: myfirst5 1.2s;
+    
+}
+
+@-webkit-keyframes myfirst5 {
+    from {background: #1fdcff;left:-20%; top:0%;}
+    to {background: #1fdcff;left:100%; top:0px;}
+}
+
+/* Standard syntax */
+@keyframes myfirst5 {
+    from {background:  #1fdcff;left:0%; top:0%;}
+    to {background:  #1fdcff;left:100%; top:0px;}
+}
+
+#div6 {
+
+    position: fixed;
+    margin: 0 auto;
+    width: 10%;
+    height: 120%;
+    
+
+     -webkit-animation: myfirst6 2s; /* Chrome, Safari, Opera */
+    animation: myfirst6 2s;
+    
+}
+
+@-webkit-keyframes myfirst6 {
+    from {background: #00a8ff;left:100%; top:0%;}
+    to {background: #00a8ff;left:-50%; top:0px;}
+}
+
+/* Standard syntax */
+@keyframes myfirst6 {
+    from {background:  #00a8ff;left:100%; top:0%;}
+    to {background:  #00a8ff;left:-50%; top:0px;}
+}
+#div7 {
+
+    position: fixed;
+    margin: 0 auto;
+    width: 20%;
+    height: 120%;
+
+    
+
+     -webkit-animation: myfirst7 1.5s; /* Chrome, Safari, Opera */
+    animation: myfirst7 1.5s;
+    
+}
+
+@-webkit-keyframes myfirst7 {
+    from {background: #24b4ff;left:100%; top:0%;}
+    to {background: #24b4ff;left:-50%; top:0px;}
+}
+
+/* Standard syntax */
+@keyframes myfirst7 {
+    from {background:  #00617e;left:100%; top:0%;}
+    to {background:  #00617e;left:-50%; top:0px;}
+}
+#div8 {
+
+    position: fixed;
+    margin: 0 auto;
+    width: 10%;
+    height: 120%;
+
+    
+
+     -webkit-animation: myfirst8 1s; /* Chrome, Safari, Opera */
+    animation: myfirst8 1s;
+    
+}
+
+@-webkit-keyframes myfirst8 {
+    from {background: #0078b0;left:100%; top:0%;}
+    to {background: #0078b0;left:-20%; top:0px;}
+}
+
+/* Standard syntax */
+@keyframes myfirst8 {
+    from {background:  #0078b0;left:100%; top:0%;}
+    to {background:  #0078b0;left:-20%; top:0px;}
+}
+
+#div9 {
+
+    position: fixed;
+    margin: 0 auto;
+    width: 30%;
+    height: 120%;
+
+    
+
+     -webkit-animation: myfirst9 0.8s; /* Chrome, Safari, Opera */
+    animation: myfirst9 0.8s;
+    
+}
+
+@-webkit-keyframes myfirst9 {
+    from {background: #b1f3ff;left:100%; top:0%;}
+    to {background: #b1f3ff;left:-20%; top:0px;}
+}
+
+/* Standard syntax */
+@keyframes myfirst9 {
+    from {background:  #b1f3ff;left:100%; top:0%;}
+    to {background:  #b1f3ff;left:-20%; top:0px;}
+}
+
+#div10 {
+
+    position: fixed;
+    margin: 0 auto;
+    width: 10%;
+    height: 120%;
+
+    
+
+     -webkit-animation: myfirst10 1.2s; /* Chrome, Safari, Opera */
+    animation: myfirst10 1.2s;
+    
+}
+
+@-webkit-keyframes myfirst10 {
+    from {background: #1fdcff;left:100%; top:0%;}
+    to {background: #1fdcff;left:-20%; top:0px;}
+}
+
+/* Standard syntax */
+@keyframes myfirst10 {
+    from {background:  #1fdcff;left:100%; top:0%;}
+    to {background:  #1fdcff;left:-20%; top:0px;}
+}
+
