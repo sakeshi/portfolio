@@ -26,9 +26,9 @@ const Projects = () => {
     <section id="projects">
       <Container>
         <div className="project-wrapper">
-          <Title title="Projects" />
+          <Title title="Projets" />
           {projects.map((project) => {
-            const { title, info, info2, url, repo, img, id } = project;
+            const { title, info, info2, url, repo, img, id, tech } = project;
 
             return (
               <Row key={id}>
@@ -49,25 +49,22 @@ const Projects = () => {
                         </p>
                         <p className="mb-4">{info2 || ''}</p>
                       </div>
-                      <a
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="cta-btn cta-btn--hero"
-                        href={url || '#!'}
-                      >
-                        See Live
-                      </a>
 
-                      {repo && (
-                        <a
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="cta-btn text-color-main"
-                          href={repo}
-                        >
-                          Source Code
-                        </a>
-                      )}
+                        {tech.map((tec)=> {
+                          return (
+                              <a
+                                  target="_blank"
+                                  rel="noopener noreferrer"
+                                  className="cta-btn cta-btn--hero"
+                                  href={url || '#!'}
+                                  style={{margin:'5px'}}
+                              >
+                                {tec}
+                              </a>
+                          );
+
+                        })}
+
                     </div>
                   </Fade>
                 </Col>
